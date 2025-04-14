@@ -50,19 +50,19 @@ cprcd init validator --chain-id test
 ## Validator
 // price17zc58s96rxj79jtqqsnzt3wtx3tern6areu43g
 ```
-echo "pet apart myth reflect stuff force attract taste caught fit exact ice slide sheriff state since unusual gaze practice course mesh magnet ozone purchase" | cprcd keys add validator --keyring-backend test --recover
+echo "mnemonic1" | cprcd keys add validator --keyring-backend test --recover
 ```
 
 ## Validator1
 // price14u53eghrurpeyx5cm47vm3qwugtmhcpnstfx9t
 ```
-echo "bottom soccer blue sniff use improve rough use amateur senior transfer quarter" | cprcd keys add validator1 --keyring-backend test --recover
+echo "mnemonic2" | cprcd keys add validator1 --keyring-backend test --recover
 ```
 
 ## Test 1
 // price1dfjns5lk748pzrd79z4zp9k22mrchm2a5t2f6u
 ```
-echo "betray theory cargo way left cricket doll room donkey wire reunion fall left surprise hamster corn village happy bulb token artist twelve whisper expire" | cprcd keys add test1 --keyring-backend test --recover
+echo "mnemonic3" | cprcd keys add test1 --keyring-backend test --recover
 ```
 
 ## Add genesis accounts
@@ -150,7 +150,7 @@ go version
 // Should return go version go1.18 linux/amd64
 
 ## Clone Master Repository
-git clone https://github.com/PriceChain/cprc_Cosmos.git
+git clone https://github.com/go-bruna/continental-price-network.git
 
 ## Install the executables
 
@@ -179,7 +179,7 @@ rd_netd init validator1 --chain-id test
 ## Validator1 (Add new wallet & Buy PRC Coin to stake, but here is just using a genesis account.)
 // price14u53eghrurpeyx5cm47vm3qwugtmhcpnstfx9t
 ```
-echo "bottom soccer blue sniff use improve rough use amateur senior transfer quarter" | rd_netd keys add validator1 --keyring-backend test --recover
+echo "mnemonic4" | rd_netd keys add validator1 --keyring-backend test --recover
 ```
 
 ## Fetch genesis configuration from the first node deployed.
