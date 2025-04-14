@@ -8,20 +8,20 @@ sudo apt install build-essential jq -y
 
 ## Install Golang:
 
-## Install latest go version https://golang.org/doc/install
+### Install latest go version https://golang.org/doc/install
 ```
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash -s -- --version 1.18
 source ~/.profile
 ```
 
-## To verify that Golang installed
+### To verify that Golang installed
 ```
 go version
 ```
 // Should return go version go1.18 linux/amd64
 
 ## Clone Master Repository
-git clone https://github.com/PriceChain/cprc.git
+git clone https://github.com/go-bruna/continental-price-network.git
 
 ## Install the executables
 
